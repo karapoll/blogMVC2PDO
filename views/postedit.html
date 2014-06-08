@@ -1,0 +1,7 @@
+<h2>Edit</h2>
+<form action="index.php?page=post&id=<?=$this->id?>" method="POST">
+	<input type="text" class="form title" name="titre" value="<?=$this->titre?>"/>
+	<textarea name="contenu" class="form textarea" rows=15 ><?=$this->contenu?></textarea>
+	<br/>
+	<input type="submit" class="submit" value="Edit" name="edit"/>
+</form>

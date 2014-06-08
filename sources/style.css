@@ -1,0 +1,134 @@
+html,body{
+    font-family: arial;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+
+h1,h2,h4{
+    color: white;
+    margin: 1rem;
+}
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.1rem;
+        color: darkgrey;
+        margin: 1rem;
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+
+p{
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+span{
+	color: red;
+}
+
+li{
+    margin: 1rem;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    background-color: lightblue;
+}
+
+    nav{
+        margin: 1.5rem 0;
+    }
+
+form{
+    margin: 1rem 1.5%;
+    line-height: 3rem;
+}
+
+    .form{
+        width: 30%;
+        border: none;
+        line-height: 2rem;
+        padding: 0rem 0.5rem;
+        background-color: white;
+    }
+
+        .text{
+            margin-left: 0.3rem;
+        }
+
+        .title{
+            width: 70%;
+        }
+
+        .textarea{
+            width: 70%;
+            padding-left: 0.5rem;
+        }
+
+        .submit{
+            width: 13%;
+            border: none;
+            line-height: 2rem;
+            padding: 0rem 0.5rem;
+            color: white;
+        }
+
+            .submit:hover{
+                background-color: darkgrey;
+                color: white
+            }
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.content{
+    width: 80%;
+    min-height: 45rem;
+    float: left;
+    background-color: lightgrey;
+}
+
+.article{
+	width: 100%;
+    margin: 1.5rem 0 3rem 0;
+}
+
+.article>h1{
+	color: black;
+}

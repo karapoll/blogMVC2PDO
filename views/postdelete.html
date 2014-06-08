@@ -1,0 +1,16 @@
+<div class="content">
+
+	<h2>Delete</h2>
+
+	<article class="article">
+		<a href="index.php?page=post&id=<?=$this->id?>"><h3><?=$this->titre?></h3></a>
+		<p><?=$this->contenu?></p>
+	</article>
+
+	<p><span>Please enter the title of the post to delete</span></p>
+
+	<form action="index.php?page=post&id=<?=$this->id?>" method="POST">
+			<input type="text" class="form text" name="secure" placeholder="Title"/>
+			<input type="submit" class="submit" value="Delete" name="delete"/>
+	</form>
+</div>
